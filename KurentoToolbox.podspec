@@ -59,7 +59,7 @@ Pod::Spec.new do |s|
   s.subspec 'Utils' do |ss|
       ss.source_files = 'Classes/Utils/*.{h,m}'
       ss.public_header_files = 'Classes/Utils/*.h'
-      ss.dependency 'CocoaLumberjack', '~> 2.2.0'
+      ss.dependency 'CocoaLumberjack', '~> 3.0'
   end
 
   s.requires_arc = true
